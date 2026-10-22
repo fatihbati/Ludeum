@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading,spacing:8) {
+        VStack(alignment: .leading, spacing: 8) {
             Image(systemName: "gamecontroller.fill")
                 .font(.system(size: 60))
                 .foregroundStyle(.tint)
@@ -19,8 +19,6 @@ struct ContentView: View {
             Text("CD Projekt Red · 2015")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
-                
-
             HStack {
                 Image(systemName: "star.fill")
                     .foregroundStyle(.yellow)
@@ -28,7 +26,6 @@ struct ContentView: View {
             }
         }
         .padding()
-        
     }
 }
 
