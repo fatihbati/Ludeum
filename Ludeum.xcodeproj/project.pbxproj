@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AF2A4FAD308A7E18001C3061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2A4F97308A7E18001C3061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF2A4F9E308A7E18001C3061;
+			remoteInfo = Ludeum;
+		};
+		AF2A4FB7308A7E18001C3061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2A4F97308A7E18001C3061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF2A4F9E308A7E18001C3061;
+			remoteInfo = Ludeum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF2A4F9F308A7E18001C3061 /* Ludeum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ludeum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2A4FAC308A7E18001C3061 /* LudeumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LudeumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2A4FB6308A7E18001C3061 /* LudeumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LudeumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF2A4FA1308A7E18001C3061 /* Ludeum */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Ludeum;
+			sourceTree = "<group>";
+		};
+		AF2A4FAF308A7E18001C3061 /* LudeumTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LudeumTests;
+			sourceTree = "<group>";
+		};
+		AF2A4FB9308A7E18001C3061 /* LudeumUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LudeumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF2A4F9C308A7E18001C3061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AF2A4FA9308A7E18001C3061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AF2A4FB3308A7E18001C3061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF2A4F96308A7E18001C3061 = {
+			isa = PBXGroup;
+			children = (
+				AF2A4FA1308A7E18001C3061 /* Ludeum */,
+				AF2A4FAF308A7E18001C3061 /* LudeumTests */,
+				AF2A4FB9308A7E18001C3061 /* LudeumUITests */,
+				AF2A4FA0308A7E18001C3061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF2A4FA0308A7E18001C3061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF2A4F9F308A7E18001C3061 /* Ludeum.app */,
+				AF2A4FAC308A7E18001C3061 /* LudeumTests.xctest */,
+				AF2A4FB6308A7E18001C3061 /* LudeumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF2A4F9E308A7E18001C3061 /* Ludeum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2A4FBE308A7E18001C3061 /* Build configuration list for PBXNativeTarget "Ludeum" */;
+			buildPhases = (
+				AF2A4F9B308A7E18001C3061 /* Sources */,
+				AF2A4F9C308A7E18001C3061 /* Frameworks */,
+				AF2A4F9D308A7E18001C3061 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF2A4FA1308A7E18001C3061 /* Ludeum */,
+			);
+			name = Ludeum;
+			productName = Ludeum;
+			productReference = AF2A4F9F308A7E18001C3061 /* Ludeum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF2A4FAB308A7E18001C3061 /* LudeumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2A4FC1308A7E18001C3061 /* Build configuration list for PBXNativeTarget "LudeumTests" */;
+			buildPhases = (
+				AF2A4FA8308A7E18001C3061 /* Sources */,
+				AF2A4FA9308A7E18001C3061 /* Frameworks */,
+				AF2A4FAA308A7E18001C3061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF2A4FAE308A7E18001C3061 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF2A4FAF308A7E18001C3061 /* LudeumTests */,
+			);
+			name = LudeumTests;
+			productName = LudeumTests;
+			productReference = AF2A4FAC308A7E18001C3061 /* LudeumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF2A4FB5308A7E18001C3061 /* LudeumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2A4FC4308A7E18001C3061 /* Build configuration list for PBXNativeTarget "LudeumUITests" */;
+			buildPhases = (
+				AF2A4FB2308A7E18001C3061 /* Sources */,
+				AF2A4FB3308A7E18001C3061 /* Frameworks */,
+				AF2A4FB4308A7E18001C3061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF2A4FB8308A7E18001C3061 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF2A4FB9308A7E18001C3061 /* LudeumUITests */,
+			);
+			name = LudeumUITests;
+			productName = LudeumUITests;
+			productReference = AF2A4FB6308A7E18001C3061 /* LudeumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF2A4F97308A7E18001C3061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					AF2A4F9E308A7E18001C3061 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					AF2A4FAB308A7E18001C3061 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = AF2A4F9E308A7E18001C3061;
+					};
+					AF2A4FB5308A7E18001C3061 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = AF2A4F9E308A7E18001C3061;
+					};
+				};
+			};
+			buildConfigurationList = AF2A4F9A308A7E18001C3061 /* Build configuration list for PBXProject "Ludeum" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF2A4F96308A7E18001C3061;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF2A4FA0308A7E18001C3061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF2A4F9E308A7E18001C3061 /* Ludeum */,
+				AF2A4FAB308A7E18001C3061 /* LudeumTests */,
+				AF2A4FB5308A7E18001C3061 /* LudeumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF2A4F9D308A7E18001C3061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AF2A4FAA308A7E18001C3061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AF2A4FB4308A7E18001C3061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF2A4F9B308A7E18001C3061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AF2A4FA8308A7E18001C3061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AF2A4FB2308A7E18001C3061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF2A4FAE308A7E18001C3061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF2A4F9E308A7E18001C3061 /* Ludeum */;
+			targetProxy = AF2A4FAD308A7E18001C3061 /* PBXContainerItemProxy */;
+		};
+		AF2A4FB8308A7E18001C3061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF2A4F9E308A7E18001C3061 /* Ludeum */;
+			targetProxy = AF2A4FB7308A7E18001C3061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF2A4FBC308A7E18001C3061 /* Debug configuration for PBXProject "Ludeum" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 64JCMK5MCQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF2A4FBD308A7E18001C3061 /* Release configuration for PBXProject "Ludeum" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 64JCMK5MCQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF2A4FBF308A7E18001C3061 /* Debug configuration for PBXNativeTarget "Ludeum" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64JCMK5MCQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatihbati.Ludeum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF2A4FC0308A7E18001C3061 /* Release configuration for PBXNativeTarget "Ludeum" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64JCMK5MCQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatihbati.Ludeum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF2A4FC2308A7E18001C3061 /* Debug configuration for PBXNativeTarget "LudeumTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64JCMK5MCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatihbati.LudeumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ludeum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ludeum";
+			};
+			name = Debug;
+		};
+		AF2A4FC3308A7E18001C3061 /* Release configuration for PBXNativeTarget "LudeumTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64JCMK5MCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatihbati.LudeumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ludeum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ludeum";
+			};
+			name = Release;
+		};
+		AF2A4FC5308A7E18001C3061 /* Debug configuration for PBXNativeTarget "LudeumUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64JCMK5MCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatihbati.LudeumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ludeum;
+			};
+			name = Debug;
+		};
+		AF2A4FC6308A7E18001C3061 /* Release configuration for PBXNativeTarget "LudeumUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64JCMK5MCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatihbati.LudeumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ludeum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF2A4F9A308A7E18001C3061 /* Build configuration list for PBXProject "Ludeum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2A4FBC308A7E18001C3061 /* Debug configuration for PBXProject "Ludeum" */,
+				AF2A4FBD308A7E18001C3061 /* Release configuration for PBXProject "Ludeum" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AF2A4FBE308A7E18001C3061 /* Build configuration list for PBXNativeTarget "Ludeum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2A4FBF308A7E18001C3061 /* Debug configuration for PBXNativeTarget "Ludeum" */,
+				AF2A4FC0308A7E18001C3061 /* Release configuration for PBXNativeTarget "Ludeum" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AF2A4FC1308A7E18001C3061 /* Build configuration list for PBXNativeTarget "LudeumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2A4FC2308A7E18001C3061 /* Debug configuration for PBXNativeTarget "LudeumTests" */,
+				AF2A4FC3308A7E18001C3061 /* Release configuration for PBXNativeTarget "LudeumTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AF2A4FC4308A7E18001C3061 /* Build configuration list for PBXNativeTarget "LudeumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2A4FC5308A7E18001C3061 /* Debug configuration for PBXNativeTarget "LudeumUITests" */,
+				AF2A4FC6308A7E18001C3061 /* Release configuration for PBXNativeTarget "LudeumUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF2A4F97308A7E18001C3061 /* Project object */;
+	validationLevel = 1;
+}
