@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GameCardView: View {
     let game: Game
-    
+
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             Image(systemName: "gamecontroller.fill")
@@ -34,25 +34,9 @@ struct GameCardView: View {
 }
 
 #Preview("Puanlı") {
-    GameCardView(
-        game: Game(
-            id: 1,
-            name: "The Witcher 3: Wild Hunt",
-            developer: "CD Projekt Red",
-            releaseYear: 2015,
-            rating: 93
-        )
-    )
+    GameCardView(game: Game.samples[0])
 }
 
 #Preview("Puansız") {
-    GameCardView(
-        game: Game(
-            id: 1,
-            name: "Phantom Blade",
-            developer: "S-GAME Studio",
-            releaseYear: 2026,
-            rating: nil
-        )
-    )
+    GameCardView(game: Game.samples[1])
 }
